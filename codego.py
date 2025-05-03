@@ -45,7 +45,7 @@ BUFF_SIZE = 65536
 
 
 def usage():
-    print("\033[38;2;255;165;0mCODEGO TOOLS FOR KODIGO SA HANDS-ON NATO\033[0m")
+    print("\033[38;2;255;165;0mCODEGO TOOLS FOR HACKING\033[0m")
     print("\033[38;2;255;165;0mUsage: codego.py -t target_host -p port\033[0m")
     print("\033[96m-l --listen                  - listen on [host]:[port] for incoming connections\033[0m")
     print("\033[96m-e --execute=file_to_run     - execute the given file upon receiving connections\033[0m")
