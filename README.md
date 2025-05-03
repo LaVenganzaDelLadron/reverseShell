@@ -33,8 +33,8 @@ pip install -r requirements.txt
 1. Clone the repo:
 
 ```bash
-git clone https://github.com/your-username/codego.git
-cd codego
+git clone https://github.com/LaVenganzaDelLadron/reverseShell.git
+cd reverseShell
 ```
 2. usage
 
