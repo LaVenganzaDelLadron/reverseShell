@@ -1,0 +1,7 @@
+pillow
+pyscreeze
+pyautogui
+vidstream
+pygetwindow
+pymsgbox
+mouseinfo
